@@ -1,0 +1,365 @@
+
+/* 로고용 폰트 */
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'BagelFatOne-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 본문용 폰트 */
+@font-face {
+    font-family: 'Beeunhye';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Beeunhye.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.logo{
+  /*font-family: 'BagelFatOne-Regular';
+   -webkit-text-stroke: 0.3px white;
+
+   margin-bottom: 18px;
+   font-size: 30px;
+   text-align: center;*/ 
+
+   background-image: url('../image/logo.png');
+   background-size: cover;
+
+   width: 190px;
+   height: 65px;
+
+}
+
+.body-container{
+    
+
+	background-image: url('../image/배경.jpg');
+    background-size: cover;
+
+}
+
+
+* {
+    font-family: 'Beeunhye';
+    box-sizing: border-box;
+    margin: 0;
+} 
+
+main {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main h1 {
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+table button {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+table { 
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    font-size: 25px;
+}
+
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    flex-direction: column;
+}
+
+
+
+.login-form {
+
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    padding: 50px;
+    box-shadow: 10px 5px 5px rgba(120, 120, 120,0.5);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input {
+    background-color: transparent;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .bottom-b {
+    border-width: 0 0 1px;
+  }
+
+
+
+.login-form div {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.logout-btn {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    position: absolute;
+    left: 900px;
+    top: 8px;
+
+    
+
+}
+
+.button-div {
+    display: flex;
+    margin: 0 20px;
+}
+
+.insert-btn1 {
+
+    border-radius: 5px;
+    width: 100px;
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+}
+
+.insert-btn2{
+    border-radius: 5px;
+    width: 100%;
+   
+  
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+
+}
+
+
+
+
+
+.delete-btn {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.update-btn{
+    border-radius: 5px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+.signup {
+
+	color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signup-form {
+  
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.signup-form p {
+   
+	margin-top: 20px;
+}
+
+.signup-form button {
+	font-size: 20px;
+    color: white;
+	background-color: black;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+	height: 40px;
+}
+
+input {
+    color: none ;
+    height: 40px;
+    font-size: 18px;
+}
+
+#pwMessage, #nameMessage{
+	font-size: 18px;
+}
+
+.confirm{ color : black}
+.error{ color : red; }
+
+#idMsg {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+
+div#addrecord{
+
+    display: flex;
+    margin: auto;
+
+
+}
+
+
+
+.obox{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    padding: 50px;
+    box-shadow: 10px 5px 5px rgba(120, 120, 120,0.2);
+
+    float: left;
+    margin-right: 100px;
+    width:30%;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+.tbox{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    padding: 50px;
+    box-shadow: 10px 5px 5px rgba(120, 120, 120,0.2);
+
+    float: left;
+    margin-right: 0px;
+    width:30%;
+    box-sizing: border-box;
+
+}
+
+.conbox{
+border-radius: 5px;
+
+
+}
+
+.intro{
+
+     font-size: 25px;
+
+     top: 100px;
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+.contentbox{
+
+ 
+
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    padding: 50px;
+    box-shadow: 10px 5px 5px rgba(120, 120, 120,0.2);
+
+    float: left;
+    margin-right: 100px;
+    width:65%;
+    box-sizing: border-box;
+
+
+
+}
+
